@@ -1,5 +1,168 @@
 ---
-layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+layout: page
+title: Hi, I'm Vahag!
+subtitle: Software Engineering Bachelor Student at SJTU
 ---
+
+
+<div id="me">
+    <p>
+        I am a third-year Bachelor's student at Shanghai Jiao-Tong University with prior experience as a Junior Data Engineer at the AI company Cognaize,
+         where I contributed to a team developing AI-based ETL pipelines.<br><br>
+        
+         My research interests lie in Cloud Computing, Database Systems, and Distributed Systems.
+         With a particular interest and experience in Machine Learning, I am especially keen on
+         leveraging ML to optimize system performance, as well as building systems that enhance ML capabilities.<br><br>
+         Besides tech, I have a passion for stand-up comedy and hiking.
+    </p>
+    <div id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>
+            Online Shop Platform
+            <button class="code-btn" onclick="location.href='https://github.com/VahagnGhaz/SJTU-bookstore'">Code</button>
+        </h3>
+        <p class="project-description">Developed a comprehensive online shopping platform with extensive tooling and frameworks. Implemented
+            React.js for the front-end and Spring Boot for the back-end. Managed structured and unstructured data using
+            MySQL and MongoDB. Utilized Kafka for asynchronous messaging and Redis for effcient caching. Employed Neo4j
+            for graph-like data structures, Apache Spark for keyword count tasks, Nginx for load balancing and Docker for
+            containerization</p>
+        <button class="see-more">See more</button>
+    </div>
+    <div class="project">
+        <h3>
+            cloudstoragio
+            <button class="code-btn" onclick="location.href='https://github.com/VahagnGhaz/cloudstorageio'">Code</button>
+        </h3>
+        <p class="project-description"> Created a Python library that unifies file operations for AWS S3, Google Cloud Storage, and Dropbox, mimicking local file system commands for cloud storage management.</p>
+    </div>
+
+   <!-- Distributed File System -->
+<div class="project">
+    <h3>
+        Distributed File System
+        <button class="code-btn" onclick="location.href='https://github.com/VahagnGhaz/SJTU-computer-system-engineering'">Code</button>
+    </h3>
+    <p class="project-description">Engineered an inode-based, distributed file system in C, while emphasizing concurrency, atomicity, and crash
+        recovery features for robustness.</p>
+</div>
+
+<!-- Raft and Map Reduce -->
+<div class="project">
+    <h3>
+        Raft and Map Reduce
+        <button class="code-btn" onclick="location.href='https://github.com/VahagnGhaz/SJTU-computer-system-engineering'">Code</button>
+    </h3>
+    <p class="project-description">Implemented the Raft consensus algorithm and the MapReduce programming model in C by following their
+        respective academic papers.</p>
+</div>
+
+<!-- Tiger-Compiler -->
+<div class="project">
+    <h3>
+        Tiger-Compiler
+        <button class="code-btn" onclick="location.href='https://github.com/VahagnGhaz/SJTU-compilers'">Code</button>
+    </h3>
+    <p class="project-description">Developed a complete compiler for the Tiger programming language in C++, covering all key stages from lexical
+        analysis to register allocation.</p>
+</div>
+
+<!-- Video Classification -->
+<div class="project">
+    <h3>
+        Video Classification
+        <button class="code-btn" onclick="location.href='https://github.com/VahagnGhaz/cnn-lstm'">Code</button>
+    </h3>
+    <p class="project-description">Created a Video Classification System using Convolutional Neural Network (CNN) and Long Short-Term Memory
+        (LSTM) networks.</p>
+</div>
+
+<!-- Event Management Platform -->
+<div class="project">
+    <h3>
+        Event Management Platform
+        <button class="code-btn" onclick="location.href='https://github.com/VahagnGhaz/SJTU-software-principles'">Code</button>
+    </h3>
+    <p class="project-description">In a collaborative class project, led the development of a school event management website, guiding the project
+        from inception to completion while upholding fundamental software engineering and project management principles.</p>
+        <button class="see-more">See more</button>
+    </div>
+
+<!-- Computer System Labs -->
+<div class="project">
+    <h3>
+        Computer System Labs
+        <button class="code-btn" onclick="location.href='https://github.com/VahagnGhaz/SJTU-computer-system-fundamentals'">Code</button>
+    </h3>
+    <p class="project-description">Completed a series of complex labs, where I reverse-engineered a binary program, simulated attacks using buffer
+        overflow bugs, build a simulator and assembler for the Y86-64 instruction set, developed a simple web proxy and
+        Unix shell.</p>
+    <button class="see-more">See more</button>
+</div>
+<div class="project">
+    <h3>
+        LeetCode Solutions
+        <button class="code-btn" onclick="location.href='https://github.com/VahagnGhaz/LeetCodeSolutions'">Code</button>
+    </h3>
+    <p class="project-description">Successfully tackled over 50 medium to hard challenges on LeetCode using C++, complemented with thorough explanations, while maintaining clean and efficient code.</p>
+</div>
+</div>
+
+<style>
+    .project {
+    position: relative;
+}
+
+
+.project-description {
+    height: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.see-more {
+    background: none;
+    border: none;
+    color: rgb(102, 102, 238);
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    margin-bottom   : -20px;
+    font-size: 14px;
+    font-weight: thin ;
+    font-style: italic;
+}
+
+.see-more:focus + .project-description {
+    height: auto;
+}
+.code-btn {
+    background-color:rgba(205, 202, 202, 0.9) ; /* Gray with transparency */
+    color: white;
+    border: none;
+    padding: 0; /* Remove padding */
+    font-size: 12px; /* Smaller font size */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    height: 20px; /* Set a specific height */
+    line-height: 20px; /* Align text vertically */
+    text-align: center; /* Center text horizontally */
+    display: inline-block; /* Allow width and height */
+    width: 50px; /* Set a specific width */
+}
+
+.code-btn:hover {
+    background-color: rgba(130, 129, 129, 0.7); /* Darker on hover */
+}
+
+</style>
+<script>
+    document.querySelectorAll('.see-more').forEach(function(button) {
+        button.addEventListener('click', function() {
+            button.previousElementSibling.style.height = 'auto';
+            button.style.display = 'none';
+        });
+    });
+</script>

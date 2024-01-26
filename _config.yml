@@ -11,13 +11,9 @@
 
 # Name of website
 title: Vahagn Ghazaryan
-
+description: Personal Website
 # Your name to show in the footer
-author:
-  name: Vahagn Ghazaryan
-  email: "ghazaryan@sjtu.edu.cn"
-  github: VahagnGhaz 
-  linkedin: psinha25
+author: ghazaryan@sjtu.edu.cn
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -25,9 +21,10 @@ author:
 
 navbar-links:
   Home: ""
-  Projects: "projects"
-  Blog: "blog"
-  CV: "cv"
+  Projects: "#projects"
+  # Blog: "#blog"
+  CV: "assets/cv.pdf"
+
 
 ################
 # --- Logo --- #
@@ -53,16 +50,16 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  # rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  # facebook: deanattali
-  github: daattali
-  # twitter: daattali
+  email: "ghazaryan@sjtu.edu.cn"
+  linkedin: vahagn-ghazaryan-332441174
+  github: VahagnGhaz
+  kaggle: https://www.kaggle.com/vahagnghazaryan
+  twitter: VahagnGhazarya4
   # patreon: DeanAttali
   # youtube: "@daattali"
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+   
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -79,13 +76,12 @@ social-network-links:
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code" 
-#  kaggle: yourname
 #  hackerrank: yourname
 #  gitlab: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+# rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
@@ -100,7 +96,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "ghazarian.github.io/"
+# url-pretty: "ghazarian.github.io/"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
