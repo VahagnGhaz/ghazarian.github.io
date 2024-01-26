@@ -3,6 +3,6 @@
 source "https://rubygems.org"
 
 gemspec
-gem 'tzinfo'
-gem 'bigdecimal'
-gem 'tzinfo-data'
+# gem 'tzinfo'
+# gem 'bigdecimal'
+# gem 'tzinfo-data'
