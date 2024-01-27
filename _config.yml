@@ -22,7 +22,7 @@ author: ghazaryan@sjtu.edu.cn
 navbar-links:
   Home: ""
   Projects: "#projects"
-  # Blog: "#blog"
+  Certifications: "#certifications"
   CV: "assets/cv.pdf"
 
 
@@ -69,7 +69,7 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-#  telegram: yourname
+  # telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yourname
