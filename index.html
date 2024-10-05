@@ -8,22 +8,47 @@ subtitle: Software Engineering Student at SJTU
 
 <div id="me">
     <p>
-        I am a third-year Bachelor's student at Shanghai Jiao-Tong University with prior experience as a Junior Data Engineer at the AI company Cognaize,
-         where I contributed to a team developing AI-based ETL pipelines.<br><br>
-        
-         My research interests lie in Cloud Computing, Database Systems, and Distributed Systems.
-         With a particular interest and experience in Machine Learning, I am especially keen on
-         leveraging ML to optimize system performance, as well as building systems that enhance ML capabilities.<br><br>
-         Besides tech, I have a passion for stand-up comedy and hiking.
+        I am a forth-year Bachelor's student at Shanghai Jiao-Tong University. My research interests lie in Cloud and Mobile Computing, Operating Systems, and MLSys.
+        Besides tech, I have a huge passion for stand-up comedy.
     </p>
-    <div id="projects">
-    <h2>Projects</h2>
+    <div id="research">
+    <h2>Research</h2>
+    <div class="project">
+        <h4>
+            smart-madvise
+            <button class="code-btn" onclick="location.href='https://github.com/Madvise-SE4353/smart-madvise'">Code</button>
+            <button class="code-btn" onclick="location.href='assets/smart-madvise.pdf'">Report</button>
+        </h4>
+        <p class="project-description">Smart-madvise is a kernel module which collects real-time memory usage data, allowing the kernel to make more informed decisions for memory optimization across multiple applications, rather than relying on static hints provided by individual processes.</p>
+        <button class="see-more">See more</button>
+    </div>
 
     <div class="project">
-        <h3>
+        <h4>
+            eBPF-Based Information Flow Control
+            <button class="code-btn" onclick="location.href='https://github.com/ybc-alkaid/bouheki'">Code</button>
+            <button class="code-btn" onclick="location.href='assets/eBPF.pdf'">Report</button>
+        </h4>
+        <p class="project-description">eBPF-based security enhancement system built on a forked version of Bouheki, extended to dynamically monitor and enforce information flow policies via IPC channels, such as signals and sockets.</p>
+        <button class="see-more">See more</button>
+    </div>
+
+    <h2>Projects</h2>
+    
+
+    <div class="project">
+        <h4>
+            minik8s
+            <button class="code-btn" onclick="location.href='https://github.com/ghazariann/minik8s'">Code</button>
+        </h4>
+        <p class="project-description">Lightweight Kubernetes-like container orchestration tool, built from scratch in Go, featuring full CI/CD pipeline integration and comprehensive testing.</p>
+    </div>
+
+    <div class="project">
+        <h4>
             Online Shop Platform
             <button class="code-btn" onclick="location.href='https://github.com/ghazariann/SJTU-bookstore'">Code</button>
-        </h3>
+        </h4>
         <p class="project-description">Developed a comprehensive online shopping platform with extensive tooling and frameworks. Implemented
             React.js for the front-end and Spring Boot for the back-end. Managed structured and unstructured data using
             MySQL and MongoDB. Utilized Kafka for asynchronous messaging and Redis for effcient caching. Employed Neo4j
@@ -32,59 +57,59 @@ subtitle: Software Engineering Student at SJTU
         <button class="see-more">See more</button>
     </div>
     <div class="project">
-        <h3>
+        <h4>
             cloudstoragio
             <button class="code-btn" onclick="location.href='https://github.com/ghazariann/cloudstorageio'">Code</button>
-        </h3>
-        <p class="project-description"> Created a Python library that unifies file operations for AWS S3, Google Cloud Storage, and Dropbox, mimicking local file system commands for cloud storage management.</p>
+        </h4>
+        <p class="project-description"> Created a Python library that unifies file operations for AWS S4, Google Cloud Storage, and Dropbox, mimicking local file system commands for cloud storage management.</p>
     </div>
 
    <!-- Distributed File System -->
 <div class="project">
-    <h3>
+    <h4>
         Distributed File System
         <button class="code-btn" onclick="location.href='https://github.com/ghazariann/SJTU-computer-system-engineering'">Code</button>
-    </h3>
+    </h4>
     <p class="project-description">Engineered an inode-based, distributed file system in C, while emphasizing concurrency, atomicity, and crash
         recovery features for robustness.</p>
 </div>
 
 <!-- Raft and Map Reduce -->
 <div class="project">
-    <h3>
+    <h4>
         Raft and Map Reduce
         <button class="code-btn" onclick="location.href='https://github.com/ghazariann/SJTU-computer-system-engineering'">Code</button>
-    </h3>
+    </h4>
     <p class="project-description">Implemented the Raft consensus algorithm and the MapReduce programming model in C by following their
         respective academic papers.</p>
 </div>
 
 <!-- Tiger-Compiler -->
 <div class="project">
-    <h3>
+    <h4>
         Tiger-Compiler
         <button class="code-btn" onclick="location.href='https://github.com/ghazariann/SJTU-compilers'">Code</button>
-    </h3>
+    </h4>
     <p class="project-description">Developed a complete compiler for the Tiger programming language in C++, covering all key stages from lexical
         analysis to register allocation.</p>
 </div>
 
 <!-- Video Classification -->
 <div class="project">
-    <h3>
+    <h4>
         Video Classification
         <button class="code-btn" onclick="location.href='https://github.com/ghazariann/cnn-lstm'">Code</button>
-    </h3>
+    </h4>
     <p class="project-description">Created a Video Classification System using Convolutional Neural Network (CNN) and Long Short-Term Memory
         (LSTM) networks.</p>
 </div>
 
 <!-- Event Management Platform -->
 <div class="project">
-    <h3>
+    <h4>
         Event Management Platform
         <button class="code-btn" onclick="location.href='https://github.com/ghazariann/SJTU-software-principles'">Code</button>
-    </h3>
+    </h4>
     <p class="project-description">In a collaborative class project, led the development of a school event management website, guiding the project
         from inception to completion while upholding fundamental software engineering and project management principles.</p>
         <button class="see-more">See more</button>
@@ -92,20 +117,20 @@ subtitle: Software Engineering Student at SJTU
 
 <!-- Computer System Labs -->
 <div class="project">
-    <h3>
+    <h4>
         Computer System Labs
         <button class="code-btn" onclick="location.href='https://github.com/ghazariann/SJTU-computer-system-fundamentals'">Code</button>
-    </h3>
+    </h4>
     <p class="project-description">Completed a series of complex labs, where I reverse-engineered a binary program, simulated attacks using buffer
         overflow bugs, build a simulator and assembler for the Y86-64 instruction set, developed a simple web proxy and
         Unix shell.</p>
     <button class="see-more">See more</button>
 </div>
 <div class="project">
-    <h3>
+    <h4>
         LeetCode Solutions
         <button class="code-btn" onclick="location.href='https://github.com/ghazariann/LeetCodeSolutions'">Code</button>
-    </h3>
+    </h4>
     <p class="project-description">Successfully tackled over 50 medium to hard challenges on LeetCode using C++, complemented with thorough explanations, while maintaining clean and efficient code.</p>
 </div>
 </div>
@@ -115,7 +140,7 @@ subtitle: Software Engineering Student at SJTU
 
     <p>
         Machine Learning Specialization - DeepLearning.AI
-        <button class="code-btn" onclick="location.href='https://coursera.org/share/e8b0b3a15c567d8486f8783c8b353233'">Link</button>
+        <button class="code-btn" onclick="location.href='https://coursera.org/share/e8b0b4a15c567d8486f8783c8b353233'">Link</button>
     </p>
 
     <p>

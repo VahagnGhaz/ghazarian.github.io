@@ -21,6 +21,7 @@ author: ghazaryan@sjtu.edu.cn
 
 navbar-links:
   Home: ""
+  Research: "#research"
   Projects: "#projects"
   Certifications: "#certifications"
   CV: "assets/cv.pdf"
